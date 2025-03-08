@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.output {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.spacer {
+    height: 2000px; 
+    background: linear-gradient(to bottom, #f4f4f4, #ddd);
+}
